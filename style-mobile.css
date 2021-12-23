@@ -1,0 +1,166 @@
+@media (max-width: 900px) {
+  /* ****************HEADER**************** */
+  header .caixa {
+    flex-direction: column;
+    font-size: 1.2rem;
+  }
+
+  .bannerPrincipal .tituloPrincipal img {
+    width: 80%;
+  }
+
+  .bannerPrincipal .tituloPrincipal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+    /*Cria o Menu Mobile*/
+  .menu-mobile{
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu-mobile div {
+    width: 32px;
+    height: 2px;
+    background: #000;
+    margin: 8px;
+  }
+
+  .linkMenu {
+    display: none;
+  }
+
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: auto;
+    width: auto;
+    right: 0;
+  }
+
+  /*Atributo que caso o menu receba o click no JS volta o volta o menu a posição inicial*/
+  .linkMenu.ativo {
+    display: block;
+  }
+
+  #navbar li{
+    width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 1px solid #000 ;
+  }
+
+  header nav #navbar li {
+    margin-left: 0rem;
+  }
+
+  header .caixa {
+    align-items: normal; 
+  }
+
+  /* ****************QUEM SOMOS**************** */
+  .item1 {
+    width: 100%;
+    flex-direction: column-reverse;
+    gap: 5rem;
+    padding: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .item1 img {
+    width: 30rem;
+  }
+
+  #quemsomos {
+    width: 100%;
+  }
+
+  /* ****************PROJETOS**************** */
+  .item2 {
+    padding: 5rem;
+    width: 100%;
+  }
+  .item2 h2 {
+    text-align: center;
+    margin-bottom: 10rem;
+  }
+  .item2 .doacao {
+    flex-direction: column;
+  }
+
+  .item2 .doacao .doacao__img img {
+    margin-bottom: 5rem;
+  }
+  .doacaosanguetexto {
+    margin-left: 0;
+  }
+
+  /* ****************QUERO DOAR**************** */
+  .item3 {
+    justify-content: center;
+  }
+  .item3 h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .valores {
+    flex-direction: column;
+    align-items: center;
+  }
+  .valores .reais {
+    width: 70%;
+  }
+
+  /* INFORMAÇÕES PESSOAIS */
+  .form h5 {
+    text-align: center;
+  }
+  .info-pessoais__form {
+    flex-direction: column;
+  }
+  .info-pessoais__form__lado input {
+    width: 95%;
+  }
+
+  /* ****************ENVIAR UMA MENSAGEM**************** */
+  .envie-sua-mensagem {
+    flex-direction: column;
+  }
+  .envie-sua-mensagem form input,
+  .envie-sua-mensagem form textarea {
+    width: 90%;
+  }
+
+  /*FOOTER =============================== */
+  footer {
+    flex-direction: column;
+    padding: 5rem 5rem;
+  }
+
+  .footer-left__menu ul {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .footer-left__menu ul li {
+    margin-top: 1.5rem;
+  }
+
+  .footer-right__social {
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer-right > span {
+    align-self: center;
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,288 @@
+/* ****************HEADER**************** */
+header .caixa {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.2rem;
+}
+
+header .caixa img {
+  width: 20rem;
+}
+
+header nav #navbar {
+  display: flex;
+}
+
+header nav #navbar li {
+  margin-left: 2rem;
+}
+
+header nav #navbar li:hover {
+  opacity: 0.7;
+}
+
+header nav #navbar li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.bannerPrincipal {
+  display: flex;
+
+  background: url(./assets/banner-grupo-alerisos.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 50rem;
+}
+
+.bannerPrincipal .tituloPrincipal {
+  align-self: center;
+  margin-left: 10rem;
+}
+
+.bannerPrincipal .tituloPrincipal img {
+  width: 40%;
+}
+
+/* ****************QUEM SOMOS**************** */
+.item1 {
+  display: flex;
+  align-items: center;
+  padding: 10rem;
+  width: 95%;
+  margin: auto;
+}
+
+.item1 img {
+  width: 50rem;
+}
+
+#quemsomos {
+  font-family: "Rowdies", cursive;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+/* ****************PROJETOS**************** */
+.item2 {
+  padding: 0 10rem;
+  width: 95%;
+  margin: auto;
+}
+
+.item2 h2 {
+  font-family: "Rowdies", cursive;
+  font-size: 4rem;
+  margin-bottom: 5rem;
+}
+
+.item2 .doacao {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.item2 .doacao .doacao__img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.doacaosanguetexto {
+  margin-left: 10rem;
+}
+
+.doacaosanguetexto h3 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+/* ****************QUERO DOAR**************** */
+.item3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ff9178;
+}
+
+.item3 h2 {
+  font-family: "Rowdies", cursive;
+  font-size: 4rem;
+  color: white;
+  margin: 5rem 0;
+}
+
+.valores {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.valores .reais {
+  width: 25%;
+  background-color: white;
+  border-radius: 20% 0 20% 0;
+  padding: 5rem;
+
+  font-size: 4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 5rem;
+}
+
+/* INFORMAÇÕES PESSOAIS */
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+}
+
+.form h5 {
+  font-family: "Rowdies", cursive;
+  font-size: 3rem;
+  color: white;
+  margin: 5rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info-pessoais__form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  width: 100%;
+  margin: auto;
+}
+
+.info-pessoais__form__lado {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-pessoais__form__lado input {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 20% 0 20% 0;
+  width: 40rem;
+}
+
+.info-pessoais__form__enviar,
+.envie-sua-mensagem__enviar {
+  padding: 2rem;
+  border-radius: 20% 0 20% 0;
+  background-color: white;
+  margin-top: 5rem;
+  cursor: pointer;
+}
+
+.info-pessoais__form__enviar:hover,
+.envie-sua-mensagem__enviar:hover {
+  opacity: 0.7;
+}
+
+/* ****************ENVIAR UMA MENSAGEM**************** */
+
+.envie-sua-mensagem {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10rem;
+}
+
+.envie-sua-mensagem h3 {
+  font-family: "Rowdies", cursive;
+  font-size: 4rem;
+}
+
+.envie-sua-mensagem form input,
+.envie-sua-mensagem form textarea {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 20% 0 20% 0;
+  width: 40rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  background-color: #ff9178;
+  color: white;
+}
+
+.envie-sua-mensagem form textarea {
+  padding: 3rem;
+}
+
+/*FOOTER =============================== */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10rem;
+
+  padding: 5rem 15rem;
+
+  background-color: #273b7a;
+  color: white;
+}
+
+.footer-left__menu ul {
+  list-style-type: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-left__menu ul li {
+  margin-top: 1rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.footer-left__menu ul li:hover {
+  opacity: 0.7;
+}
+
+.footer-left__menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.footer-right__social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  width: 100%;
+}
+.footer-right__social i {
+  color: white;
+
+  margin: 0 2rem 2rem 0;
+
+  transition: ease;
+  transition: 0.2s;
+}
+.footer-right__social i:hover {
+  transform: scale(1.3);
+}
+
+.footer-right > span {
+  margin-bottom: 1rem;
+}

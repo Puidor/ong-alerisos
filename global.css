@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+
+body,
+input,
+button {
+  font: 300 1.8rem/1 "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+}
